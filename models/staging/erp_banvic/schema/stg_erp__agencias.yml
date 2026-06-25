@@ -1,0 +1,9 @@
+ models:
+      - name: stg_erp__agencias
+        description: Modelo staging agencias.
+        columns:
+          - name: pk_agencia
+            description: chave primária do agencia.
+            data_tests:
+              - unique
+              - not_null

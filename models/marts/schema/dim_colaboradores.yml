@@ -1,0 +1,9 @@
+ models:
+      - name: dim_localidades
+        description: Modelo dimensão localidades.
+        columns:
+          - name: pk_localidade
+            description: chave primária do localidade.
+            data_tests:
+              - unique
+              - not_null

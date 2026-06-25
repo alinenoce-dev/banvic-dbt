@@ -1,0 +1,9 @@
+ models:
+      - name: stg_erp__colaboradores
+        description: Modelo staging colaboradores.
+        columns:
+          - name: pk_colaborador
+            description: chave primária do colaborador.
+            data_tests:
+              - unique
+              - not_null

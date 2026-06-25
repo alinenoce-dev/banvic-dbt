@@ -1,0 +1,9 @@
+ models:
+      - name: stg_erp__localidades
+        description: Modelo staging localidades.
+        columns:
+          - name: pk_localidade
+            description: chave primária do localidade.
+            data_tests:
+              - unique
+              - not_null

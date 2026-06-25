@@ -1,0 +1,9 @@
+ models:
+      - name: stg_erp__clientes
+        description: Modelo staging clientes.
+        columns:
+          - name: pk_cliente
+            description: chave primária do cliente.
+            data_tests:
+              - unique
+              - not_null

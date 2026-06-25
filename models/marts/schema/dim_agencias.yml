@@ -18,4 +18,4 @@
           - name: data_abertura_agencia
             description: Data de abertura da agência.
           - name: tipo_agencia
-            description: "Definição de tipo de agência: física ou digital".
+            description: "Definição de tipo de agência: física ou digital"

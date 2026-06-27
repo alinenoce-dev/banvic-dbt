@@ -1,9 +1,9 @@
 with
-    clientes as (
+    dim_clientes as (
         select *
         from {{ ref('int_dimensao_clientes') }}
     )
 
 
 select *
-from clientes
+from dim_clientes

@@ -51,8 +51,8 @@ sources:
                 - cod_colaborador
                 - cod_agencia
 
-            - name: contas
-        description: Tabela feonte de contas de clientes da Banvic, inlcuindo chaves estrangeiras das agencias, colaboradores e localidades, além d data de abertura, tipo_conta e saldo.
+      - name: contas
+        description: Tabela fonte de contas de clientes da Banvic, inlcuindo chaves estrangeiras das agencias, colaboradores e localidades, além d data de abertura, tipo_conta e saldo.
         columns:
           - name: num_contas
             description: chave primária tabela contas
